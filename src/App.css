@@ -1,0 +1,38 @@
+h1{
+  text-align: center;
+}
+form{
+  width: 900px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+
+}
+form input{
+  flex-basis: 80%;
+   height: 40px;
+}
+form button{
+  flex-basis: 20%;
+}
+.lists{
+  width: 900px;
+  margin: auto;
+  margin-top: 20px;
+}
+.lists ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lists ul li{
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  position: relative;
+}
+.lists ul li span{
+  position: absolute;
+  right: 10px;
+  cursor:pointer;
+}
